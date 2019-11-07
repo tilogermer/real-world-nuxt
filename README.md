@@ -17,6 +17,12 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# deploy to Heroku
+heroku config:set NPM_CONFIG_PRODUCTION=false
+heroku config:set HOST=0.0.0.0
+heroku config:set NODE_ENV=production
 ```
+
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
