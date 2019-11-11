@@ -296,62 +296,6 @@
           "name": "Mary Gordon"
         }
       ]
-    },
-    {
-      "id": 10,
-      "user": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "category": "animal welfare",
-      "organizer": {
-        "user": {
-          "id": "abc123",
-          "name": "Adam Jahr"
-        }
-      },
-      "title": "Gregg's Event",
-      "description": "We'll do stuff",
-      "location": "Your House",
-      "date": "",
-      "time": "5:00",
-      "attendees": []
-    },
-    {
-      "id": 724860,
-      "user": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "category": "school",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "title": "Vico von Bülow Gymnasium",
-      "description": "meetup with teachers for entering the school",
-      "location": "Stahnsdorf",
-      "date": "2019-11-25T15:43:00.000Z",
-      "time": "19:00",
-      "attendees": []
-    },
-    {
-      "id": 280983,
-      "user": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "category": "housing",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "title": "Leo Birthday Party",
-      "description": "nice party and barbecue in our house and garden",
-      "location": "Kleinmachnow",
-      "date": "2019-11-29T15:50:00.000Z",
-      "time": "14:00",
-      "attendees": []
     }
   ],
   "courses": [
