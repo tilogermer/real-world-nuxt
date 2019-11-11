@@ -50,7 +50,7 @@
         {
           "id": 1,
           "title": "Intro to Vue.js",
-          "description": "",
+          "description": "If you're just getting started with Vue, here's where to get going. We cover all the basics and give you challenges so you can learn by doing.",
           "lessons": 11,
           "date_start": "2019-11-01",
           "date_end": "2019-11-03",
@@ -61,7 +61,7 @@
         {
           "id": 2,
           "title": "Vue 3 Essentials",
-          "description": "",
+          "description": "Understanding the upcoming features in Vue 3 that enable developers to create scalable Vue applications.",
           "lessons": 6,
           "date_start": "2019-11-20",
           "date_end": "2019-11-20",
@@ -72,7 +72,7 @@
         {
           "id": 3,
           "title": "Real World Vue.js",
-          "description": "",
+          "description": "Pass the basics, we'll show you more techniques that are need to ship Vue applications. Topics include Vue CLI, Vue Router, Single File Components, and API calls.",
           "lessons": 9,
           "date_start": "2019-11-04",
           "date_end": "2019-11-05",
@@ -83,7 +83,7 @@
         {
           "id": 4,
           "title": "Mastering Vuex",
-          "description": "",
+          "description": "Learn how to handle state in a production level application with Vuex, Vue's own state management pattern and library.",
           "lessons": 7,
           "date_start": "2019-11-06",
           "date_end": "2019-11-07",
@@ -94,7 +94,7 @@
         {
           "id": 5,
           "title": "Next Level Vue",
-          "description": "",
+          "description": "Learn more advanced real-world practices on routing, component loading, code reuse, and forms.",
           "lessons": 13,
           "date_start": "2019-11-25",
           "date_end": "2019-11-27",
@@ -105,7 +105,7 @@
         {
           "id": 6,
           "title": "Unit Testing",
-          "description": "",
+          "description": "Strengthen your Vue apps by adding unit testing to your components using Jest and Vue Test Utils",
           "lessons": 0,
           "date_start": "2019-11-28",
           "date_end": "2019-11-30",
@@ -116,7 +116,7 @@
         {
           "id": 7,
           "title": "Animating Vue",
-          "description": "",
+          "description": "Bring your web interface to life and improve your user experience with Vue animations.",
           "lessons": 5,
           "date_start": "2019-11-09",
           "date_end": "2019-11-09",
@@ -127,7 +127,7 @@
         {
           "id": 8,
           "title": "Beautify with Vuetify",
-          "description": "",
+          "description": "Learn how to create beautifully styled and structured web apps using Vuetify, a material design component framework.",
           "lessons": 7,
           "date_start": "2019-11-08",
           "date_end": "2019-11-09",
@@ -138,7 +138,7 @@
         {
           "id": 9,
           "title": "Scaling Vue with Nuxt.js",
-          "description": "",
+          "description": "Once you are comfortable with Vue, learning a framework like Nuxt.js allows you to create production-ready web apps which follow best practices",
           "lessons": 10,
           "date_start": "2019-11-06",
           "date_end": "2019-11-07",
@@ -149,7 +149,7 @@
         {
           "id": 10,
           "title": "Token-based Authentication",
-          "description": "",
+          "description": "Learn how to control access to certain parts of your app by implementing user authentication with JWT.",
           "lessons": 7,
           "date_start": "2019-11-11",
           "date_end": "2019-11-11",
@@ -160,7 +160,7 @@
         {
           "id": 11,
           "title": "Watch us build a Trello Clone",
-          "description": "",
+          "description": "Core team member Damian Dulisz joins Gregg Pollack to build a Trello clone in Vue.js together. We build the app using Vuex, local storage, the browser drag and drop API, and lots of component refactoring.",
           "lessons": 10,
           "date_start": "2019-11-09",
           "date_end": "2019-11-10",
@@ -171,7 +171,7 @@
         {
           "id": 12,
           "title": "Advanced Components",
-          "description": "",
+          "description": "Discover the full functionality of Vue components with Gregg Pollack & Evan You, the creator of Vue.",
           "lessons": 12,
           "date_start": "2019-11-17",
           "date_end": "2019-11-18",
