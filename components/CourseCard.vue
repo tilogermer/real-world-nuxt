@@ -2,7 +2,10 @@
   <nuxt-link :to="'/course/' + course.id">
     <div class="-shadow">
       <span class="eyebrow">@{{ course.date_start }} to {{ course.date_end }}</span>
-      <h4 class="title">{{ course.title }}</h4>
+      <h4 class="title">
+        <img :src="course.imageUrl" class="avatar" />
+        {{ course.title }}
+      </h4>
       <h5>Level: {{course.level}}</h5>
       <p>Time: {{course.time}} min.</p>
       <p>Finished: {{course.finished}}</p>
@@ -40,5 +43,9 @@ div:hover {
 }
 a {
   text-decoration: none;
+}
+.avatar {
+  width: 60px;
+  margin-right: 20px;
 }
 </style>
