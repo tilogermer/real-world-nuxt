@@ -1,184 +1,195 @@
 {
   "events": [
-      {
-        "id": 5928101,
-        "user": {
-          "id": "abc123",
-          "name": "Adam"
-        },
-        "category": "animal welfare",
-        "organizer": "Adam",
-        "title": "Cat Cabaret",
-        "description": "Yay felines!",
-        "location": "Meow Town",
-        "date": "2019-01-03T21:54:00.000Z",
-        "time": "2:00",
-        "attendees": []
+    {
+      "id": 5928101,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
       },
-      {
-        "id": 8419988,
-        "user": {
-          "id": "abc123",
-          "name": "Adam"
-        },
-        "category": "animal welfare",
-        "organizer": "Adam",
-        "title": "Kitty Cluster",
-        "description": "Yay cats!",
-        "location": "Catlandia",
-        "date": "2019-01-31T22:09:00.000Z",
-        "time": "7:00",
-        "attendees": []
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Cat Cabaret",
+      "description": "Yay felines!",
+      "location": "Meow Town",
+      "date": "2019-01-03T21:54:00.000Z",
+      "time": "2:00",
+      "attendees": []
+    },
+    {
+      "id": 8419988,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
       },
-      {
-        "id": 4582797,
-        "user": {
-          "id": "abc123",
-          "name": "Adam"
-        },
-        "category": "animal welfare",
-        "organizer": "Adam",
-        "title": "Puppy Parade",
-        "description": "Yay pups!",
-        "location": "Puptown ",
-        "date": "2019-02-02T23:27:00.000Z",
-        "time": "1:00",
-        "attendees": []
-      }
-    ],
-    "courses": [
-        {
-          "id": 1,
-          "title": "Intro to Vue.js",
-          "description": "If you're just getting started with Vue, here's where to get going. We cover all the basics and give you challenges so you can learn by doing.",
-          "lessons": 11,
-          "date_start": "2019-11-01",
-          "date_end": "2019-11-03",
-          "time": 56,
-          "level": "beginner",
-          "finished": "true"
-        },
-        {
-          "id": 2,
-          "title": "Vue 3 Essentials",
-          "description": "Understanding the upcoming features in Vue 3 that enable developers to create scalable Vue applications.",
-          "lessons": 6,
-          "date_start": "2019-11-20",
-          "date_end": "2019-11-20",
-          "time": 19,
-          "level": "intermediate",
-          "finished": "false"
-        },
-        {
-          "id": 3,
-          "title": "Real World Vue.js",
-          "description": "Pass the basics, we'll show you more techniques that are need to ship Vue applications. Topics include Vue CLI, Vue Router, Single File Components, and API calls.",
-          "lessons": 9,
-          "date_start": "2019-11-04",
-          "date_end": "2019-11-05",
-          "time": 92,
-          "level": "intermediate",
-          "finished": "true"
-        },
-        {
-          "id": 4,
-          "title": "Mastering Vuex",
-          "description": "Learn how to handle state in a production level application with Vuex, Vue's own state management pattern and library.",
-          "lessons": 7,
-          "date_start": "2019-11-06",
-          "date_end": "2019-11-07",
-          "time": 87,
-          "level": "beginner",
-          "finished": "true"
-        },
-        {
-          "id": 5,
-          "title": "Next Level Vue",
-          "description": "Learn more advanced real-world practices on routing, component loading, code reuse, and forms.",
-          "lessons": 13,
-          "date_start": "2019-11-25",
-          "date_end": "2019-11-27",
-          "time": 109,
-          "level": "intermediate",
-          "finished": "false"
-        },
-        {
-          "id": 6,
-          "title": "Unit Testing",
-          "description": "Strengthen your Vue apps by adding unit testing to your components using Jest and Vue Test Utils",
-          "lessons": 0,
-          "date_start": "2019-11-28",
-          "date_end": "2019-11-30",
-          "time": 120,
-          "level": "intermediate",
-          "finished": "false"
-        },
-        {
-          "id": 7,
-          "title": "Animating Vue",
-          "description": "Bring your web interface to life and improve your user experience with Vue animations.",
-          "lessons": 5,
-          "date_start": "2019-11-09",
-          "date_end": "2019-11-09",
-          "time": 37,
-          "level": "beginner",
-          "finished": "true"
-        },
-        {
-          "id": 8,
-          "title": "Beautify with Vuetify",
-          "description": "Learn how to create beautifully styled and structured web apps using Vuetify, a material design component framework.",
-          "lessons": 7,
-          "date_start": "2019-11-08",
-          "date_end": "2019-11-09",
-          "time": 72,
-          "level": "beginner",
-          "finished": "true"
-        },
-        {
-          "id": 9,
-          "title": "Scaling Vue with Nuxt.js",
-          "description": "Once you are comfortable with Vue, learning a framework like Nuxt.js allows you to create production-ready web apps which follow best practices",
-          "lessons": 10,
-          "date_start": "2019-11-06",
-          "date_end": "2019-11-07",
-          "time": 94,
-          "level": "advanced",
-          "finished": "true"
-        },
-        {
-          "id": 10,
-          "title": "Token-based Authentication",
-          "description": "Learn how to control access to certain parts of your app by implementing user authentication with JWT.",
-          "lessons": 7,
-          "date_start": "2019-11-11",
-          "date_end": "2019-11-11",
-          "time": 52,
-          "level": "intermediate",
-          "finished": "true"
-        },
-        {
-          "id": 11,
-          "title": "Watch us build a Trello Clone",
-          "description": "Core team member Damian Dulisz joins Gregg Pollack to build a Trello clone in Vue.js together. We build the app using Vuex, local storage, the browser drag and drop API, and lots of component refactoring.",
-          "lessons": 10,
-          "date_start": "2019-11-09",
-          "date_end": "2019-11-10",
-          "time": 82,
-          "level": "intermediate",
-          "finished": "true"
-        },
-        {
-          "id": 12,
-          "title": "Advanced Components",
-          "description": "Discover the full functionality of Vue components with Gregg Pollack & Evan You, the creator of Vue.",
-          "lessons": 12,
-          "date_start": "2019-11-17",
-          "date_end": "2019-11-18",
-          "time": 108,
-          "level": "advanced",
-          "finished": "false"
-        }
-    ]
-  }
-  
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Kitty Cluster",
+      "description": "Yay cats!",
+      "location": "Catlandia",
+      "date": "2019-01-31T22:09:00.000Z",
+      "time": "7:00",
+      "attendees": []
+    },
+    {
+      "id": 4582797,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Puppy Parade",
+      "description": "Yay pups!",
+      "location": "Puptown ",
+      "date": "2019-02-02T23:27:00.000Z",
+      "time": "1:00",
+      "attendees": []
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Intro to Vue.js",
+      "description": "If you're just getting started with Vue, here's where to get going. We cover all the basics and give you challenges so you can learn by doing.",
+      "lessons": 11,
+      "date_start": "2019-11-01",
+      "date_end": "2019-11-03",
+      "time": 56,
+      "level": "beginner",
+      "finished": "true",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1569439668110_2.png?alt=media&token=d1085922-8171-4883-96fb-e5f368ca58fd"
+    },
+    {
+      "id": 2,
+      "title": "Vue 3 Essentials",
+      "description": "Understanding the upcoming features in Vue 3 that enable developers to create scalable Vue applications.",
+      "lessons": 6,
+      "date_start": "2019-11-20",
+      "date_end": "2019-11-20",
+      "time": 19,
+      "level": "intermediate",
+      "finished": "false",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1569440526519_11.png?alt=media&token=e601e2d8-703b-4337-bd2b-d17a88253f68"
+    },
+    {
+      "id": 3,
+      "title": "Real World Vue.js",
+      "description": "Pass the basics, we'll show you more techniques that are need to ship Vue applications. Topics include Vue CLI, Vue Router, Single File Components, and API calls.",
+      "lessons": 9,
+      "date_start": "2019-11-04",
+      "date_end": "2019-11-05",
+      "time": 92,
+      "level": "intermediate",
+      "finished": "true",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1569439739264_1.png?alt=media&token=d50729f7-b97f-4f7a-9860-79a96f993fb0"
+    },
+    {
+      "id": 4,
+      "title": "Mastering Vuex",
+      "description": "Learn how to handle state in a production level application with Vuex, Vue's own state management pattern and library.",
+      "lessons": 7,
+      "date_start": "2019-11-06",
+      "date_end": "2019-11-07",
+      "time": 87,
+      "level": "beginner",
+      "finished": "true",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1569439858361_3.png?alt=media&token=7ca9517e-b574-4380-a874-41bfbc15b4c7"
+    },
+    {
+      "id": 5,
+      "title": "Next Level Vue",
+      "description": "Learn more advanced real-world practices on routing, component loading, code reuse, and forms.",
+      "lessons": 13,
+      "date_start": "2019-11-25",
+      "date_end": "2019-11-27",
+      "time": 109,
+      "level": "intermediate",
+      "finished": "false",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1569439902643_4.png?alt=media&token=6d240452-79d0-4a50-95fb-649a83a07c31"
+    },
+    {
+      "id": 6,
+      "title": "Unit Testing",
+      "description": "Strengthen your Vue apps by adding unit testing to your components using Jest and Vue Test Utils",
+      "lessons": 0,
+      "date_start": "2019-11-28",
+      "date_end": "2019-11-30",
+      "time": 120,
+      "level": "intermediate",
+      "finished": "false",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1569440526519_11.png?alt=media&token=e601e2d8-703b-4337-bd2b-d17a88253f68"
+    },
+    {
+      "id": 7,
+      "title": "Animating Vue",
+      "description": "Bring your web interface to life and improve your user experience with Vue animations.",
+      "lessons": 5,
+      "date_start": "2019-11-09",
+      "date_end": "2019-11-09",
+      "time": 37,
+      "level": "beginner",
+      "finished": "true",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1570027224019_10.png?alt=media&token=6d9b40e0-a7d4-465a-b567-0e38f460ef1f"
+    },
+    {
+      "id": 8,
+      "title": "Beautify with Vuetify",
+      "description": "Learn how to create beautifully styled and structured web apps using Vuetify, a material design component framework.",
+      "lessons": 7,
+      "date_start": "2019-11-08",
+      "date_end": "2019-11-09",
+      "time": 72,
+      "level": "beginner",
+      "finished": "true",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1569440014103_7.png?alt=media&token=f629f699-6a8e-4d2a-8e30-c4e6688aa7bd"
+    },
+    {
+      "id": 9,
+      "title": "Scaling Vue with Nuxt.js",
+      "description": "Once you are comfortable with Vue, learning a framework like Nuxt.js allows you to create production-ready web apps which follow best practices",
+      "lessons": 10,
+      "date_start": "2019-11-06",
+      "date_end": "2019-11-07",
+      "time": 94,
+      "level": "advanced",
+      "finished": "true",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1569439788329_9.png?alt=media&token=ccc84247-eaa7-4231-a08d-73dc2bbcc398"
+    },
+    {
+      "id": 10,
+      "title": "Token-based Authentication",
+      "description": "Learn how to control access to certain parts of your app by implementing user authentication with JWT.",
+      "lessons": 7,
+      "date_start": "2019-11-11",
+      "date_end": "2019-11-11",
+      "time": 52,
+      "level": "intermediate",
+      "finished": "true",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1569439942942_8.png?alt=media&token=3829d7b1-332c-41a3-97e7-c57484b9dc9c"
+    },
+    {
+      "id": 11,
+      "title": "Watch us build a Trello Clone",
+      "description": "Core team member Damian Dulisz joins Gregg Pollack to build a Trello clone in Vue.js together. We build the app using Vuex, local storage, the browser drag and drop API, and lots of component refactoring.",
+      "lessons": 10,
+      "date_start": "2019-11-09",
+      "date_end": "2019-11-10",
+      "time": 82,
+      "level": "intermediate",
+      "finished": "true",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1569439972753_6.png?alt=media&token=e624dd88-2327-40cc-a01b-449ef39df845"
+    },
+    {
+      "id": 12,
+      "title": "Advanced Components",
+      "description": "Discover the full functionality of Vue components with Gregg Pollack & Evan You, the creator of Vue.",
+      "lessons": 12,
+      "date_start": "2019-11-17",
+      "date_end": "2019-11-18",
+      "time": 108,
+      "level": "advanced",
+      "finished": "false",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1569439707864_5.png?alt=media&token=030a8e1f-95cc-425d-a6cc-84d090439d02"
+    }
+  ]
+}
